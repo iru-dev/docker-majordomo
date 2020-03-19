@@ -23,7 +23,7 @@ install: build up
 clone_code: ## git clone code
 	@ mkdir -p ./app
 	@ mkdir -p ./db-data
-	@ git clone https://github.com/sergejey/majordomo.git ./app
+	@ git clone https://github.com/iru-dev/majordomo.git ./app
 pull: ## git pull cod
 	@ cd ./app | git pull
 build: ## Build docker containers
